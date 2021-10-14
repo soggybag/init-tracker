@@ -1,0 +1,19 @@
+.PlayerListItem {
+	display: flex;
+	justify-content: space-between;
+}
+
+.PlayerListItem > span {
+	display: inline-block;
+}
+
+.PlayerListItem > span:nth-child(1) {
+
+}
+
+.PlayerListItem > span:nth-child(2) {
+	flex: 1;
+}
+
+
+

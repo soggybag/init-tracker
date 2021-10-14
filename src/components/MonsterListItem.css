@@ -1,0 +1,20 @@
+.MonsterListItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.MonsterListItem > span {
+	display: inline-block;
+}
+
+.MonsterListItem > span:nth-child(2) {
+	flex: 1;
+}
+
+.MonsterListItem > span:nth-child(1) {
+	background-color: #000;
+	padding: 0.25rem;
+	margin: 0.25rem;
+	color: #999;
+}

@@ -7,7 +7,7 @@ import EncounterList from './EncountersList'
 import GenerateEncounter from './GenerateEncounter'
 import MonsterList from './MonsterList'
 
-import { newPlayer, newMonster } from '../actions'
+import { newPlayer, newMonster, addMonster } from '../actions'
 
 export default function Pane() {
 	const players = useSelector(state => state.tracker.players)
@@ -15,6 +15,7 @@ export default function Pane() {
 	const selectedEncounter = useSelector(state => state.tracker.selectedEncounter)
 	const encounters = useSelector(state => state.tracker.encounters)
 	const encounter = encounters[selectedEncounter]
+	const encounterMonsters = encounter.monsters.sort((a, b) => a.name > b.name)
 
   return (
 		<div className="App">

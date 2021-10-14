@@ -1,0 +1,12 @@
+.EncounterItem {
+
+}
+
+.EncounterItem label {
+	display: flex;
+	align-items: center;
+}
+
+.EncounterItem input {
+	margin: 0.5em;
+}
