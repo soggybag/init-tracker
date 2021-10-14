@@ -17,6 +17,8 @@ Saves all data in local storage. Data is saved on the computer where it was crea
 
 Generates initiative for each entity in the initiative list. 
 
+Add that picture
+
 ## Todo
 
 - Add entity forms
